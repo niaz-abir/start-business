@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import React from "react";
-import image from "../../../public/images/hero.jpg";
+import image from "../../../public/images/about.jpeg";
 import Link from "next/link";
 import { MdOutlineWavingHand } from "react-icons/md";
 const AboutUs = () => {
@@ -11,7 +11,7 @@ const AboutUs = () => {
 
       <div>
         <p className="lg:text-[1.25rem] text-[1rem] p-4 leading-relaxed text-foreground/80">
-          <span className="font-semibold">Graphitech</span> distinguishes itself
+          <span className="font-semibold">Start of business group</span> distinguishes itself
           as more than a digital agency by employing innovators, creators and
           strategists who are committed to propelling your brand forward in the
           digital era. With a founding principle of flourishing and imagining

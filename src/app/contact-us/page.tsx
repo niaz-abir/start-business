@@ -83,11 +83,9 @@ const ContactUs = () => {
                     <h3 className="mb-2 text-lg font-medium leading-6 text-white dark:text-white">
                       Our Address
                     </h3>
+                    <p className="text-white dark:text-slate-400">El Quasr</p>
                     <p className="text-white dark:text-slate-400">
-                      1300 Elmwood Avenue,
-                    </p>
-                    <p className="text-white dark:text-slate-400">
-                      Buffalo, NY 14222, USA
+                      New Valley, Egypt
                     </p>
                   </div>
                 </li>
@@ -118,7 +116,7 @@ const ContactUs = () => {
                       Mobile: +880263627
                     </p>
                     <p className="text-white dark:text-slate-400">
-                      Mail: graphitech.sales@gmail.com
+                      Mail: company.sales@gmail.com
                     </p>
                   </div>
                 </li>
@@ -226,7 +224,7 @@ const ContactUs = () => {
                     )}
 
                     <div className="mt-4 mb-4">
-                      <button className="w-[350px]  lg:w-[450px] h-14 btn-outline border-none duration-300 rounded-md text-[18px] text-white font-bold hover:bg-[#2a4f75] bg-[#1a2f45]">
+                      <button className="w-[350px]  lg:w-[450px] h-14 btn-outline border-none duration-300 rounded-md text-[18px] text-white font-bold hover:bg-[#a1582a] bg-[#da5d10]">
                         Submit
                       </button>
                     </div>

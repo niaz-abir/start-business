@@ -19,15 +19,12 @@ export function Banner() {
             potential.
           </p>
           <div className="flex items-center gap-x-4 pt-4 pb-4">
-            <Link href="/#project">
-              <button className="w-28 h-14 bg-gradient-to-r from-[#c4672d] to-[#da5d10] hover:bg-[#132836] border-none rounded-md text-[18px] text-white font-bold transition-all duration-300">
-                Our Projects
+            <Link href="/contact-us">
+              <button className="w-44 h-14 bg-gradient-to-r from-[#c4672d] to-[#da5d10] hover:bg-[#132836] border-none rounded-md text-[18px] text-white font-bold transition-all duration-300">
+                Book Appointment 
               </button>
             </Link>
 
-            <button className="  w-40 h-14 rounded-md text-white text-[18px] font-bold  transition-all duration-300   bg-[#2e6c96] ">
-              Book A Meeting
-            </button>
           </div>
         </div>
         <div className="ml-0 lg:ml-6">

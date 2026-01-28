@@ -51,10 +51,10 @@ const Footer = () => {
         </nav>
         <nav>
           <h6 className="font-semibold text-[16px]">Address</h6>
-          <p className="text-[20px]"> 1300 Elmwood Avenue,</p>
-          <p className="text-[20px]"> Buffalo, NY 14222, USA</p>
+          <p className="text-[20px]">El Quasr</p>
+          <p className="text-[20px]">New Valley, Egypt</p>
           <h6 className="font-semibold text-[16px] pt-2">Number:</h6>
-          <p className="text-[20px]"> +1 716 406 7972</p>
+          <p className="text-[20px]"> +966 (0) 56 304 4840</p>
         </nav>
       </footer>
       <div className="flex justify-between p-2">
@@ -62,12 +62,12 @@ const Footer = () => {
           <h4>Copyright © $2024 - All right reserved</h4>
         </div>
         <div className="flex gap-2">
-          <Link href="https://www.facebook.com/graphitechsolution2">
+          <Link href="/">
             <FaFacebookSquare className="text-3xl " />
           </Link>
           <FaInstagram className="text-3xl" />
 
-          <Link href="https://www.linkedin.com/company/graphitech-solution/?viewAsMember=true">
+          <Link href="/" >
             <FaLinkedin className="text-3xl " />
           </Link>
         </div>

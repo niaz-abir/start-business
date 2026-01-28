@@ -6,6 +6,7 @@ import { FaMailchimp, FaWhatsapp } from "react-icons/fa";
 import Link from "next/link";
 import { AiOutlineMenuFold } from "react-icons/ai";
 import { SiMailchimp } from "react-icons/si";
+import { SlPeople } from "react-icons/sl";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -35,8 +36,8 @@ const Navbar = () => {
       <nav className="mt-2">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <h1 className="flex gap-2 items-center text-2xl">
-            <SiMailchimp size={35} />
-            <Link href="/">Graphitech Solution</Link>
+            <SlPeople size={35} />
+            <Link href="/">Start Of Business Group</Link>
           </h1>
           <button
             onClick={toggleMenu}
@@ -58,26 +59,26 @@ const Navbar = () => {
             <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 text-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
               <li>
                 <Link
-                  href="about-us"
+                  href="/"
                   className="block py-2 px-3 text-[20px] lg:w-full hover:bg-[#416181] w-36 text-white rounded md:border-0"
                 >
-                  About us
+                  Home
                 </Link>
               </li>
               <li>
                 <a
-                  href="/#services"
+                  href="/about-us"
                   className="block py-2 px-3 text-[20px] lg:w-full hover:bg-[#416181]  w-36 text-white rounded md:border-0"
                 >
-                  Services
+                  About Us
                 </a>
               </li>
               <li>
                 <a
-                  href="/#package"
+                  href="/#service"
                   className="block py-2 px-3 text-[20px] lg:w-full hover:bg-[#416181]  w-36 text-white rounded md:border-0"
                 >
-                  Package
+                  service
                 </a>
               </li>
               <li>
@@ -91,9 +92,9 @@ const Navbar = () => {
               <li>
                 <a
                   href="tel:+1 716 406 7972"
-                  className="p-2 flex items-center gap-2 text-[20px] lg:w-full bg-gradient-to-r from-[#da7c41] to-[#da5d10]  w-56 text-white rounded md:border-0"
+                  className="p-2 flex items-center gap-2 text-[20px] lg:w-full bg-gradient-to-r from-[#da5d10] to-[#da5d10]  w-56 text-white rounded md:border-0"
                 >
-                  <MdOutlinePermPhoneMsg /> +1 716 406 7972
+                  <MdOutlinePermPhoneMsg /> +966 (0) 56 000 9097
                 </a>
               </li>
             </ul>
@@ -103,7 +104,7 @@ const Navbar = () => {
       {isScrolled && (
         <div className="fixed bottom-10 right-10 z-50">
           <a
-            href="https://wa.me/+8801845692696"
+            href=""
             target="_blank"
             rel="noopener noreferrer"
             className=" p-3 rounded-full shadow-lg text-white"

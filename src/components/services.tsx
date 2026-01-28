@@ -8,59 +8,70 @@ import { RiWebhookLine } from "react-icons/ri";
 import { TfiWrite } from "react-icons/tfi";
 import { VscGraph } from "react-icons/vsc";
 
+
+
+
+
+
+
+
+
+
+
+
+
 const Services = () => {
-  const allServices = [
-    {
-      id: 2,
-      name: "Web Development",
-      no: "02",
-      icon: <RiWebhookLine />,
-      details:
-        "Build custom, responsive websites tailored to your business. From design to deployment, we create web solutions that drive success.",
-    },
-    {
-      id: 4,
-      name: "Graphic Design",
-      no: "04",
-      icon: <GrAppsRounded />,
-      details:
-        "Stunning visuals that capture attention and convey your message. From logos to marketing materials, we design for impact and clarity.",
-    },
-    {
-      id: 5,
-      name: "Digital Marketing",
-      no: "05",
-      icon: <TfiWrite />,
-      details:
-        "Boost your brand with targeted online strategies. From SEO to social media, we drive growth and enhance your digital presence.",
-    },
-    {
-      id: 1,
-      name: "Video Editing",
-      no: "01",
-      icon: <FaPhotoVideo />,
-      details:
-        "Transform raw footage into polished videos with expert editing, tailored to your needs. Professional results, every time.",
-    },
+ const allServices = [
+   {
+     id: 1,
+     name: "Business Strategy Consulting",
+     no: "01",
+     icon: <RiWebhookLine />,
+     details:
+       "We help define clear business strategies that align with your vision, market position, and long-term goals to drive sustainable growth.",
+   },
+   {
+     id: 2,
+     name: "Growth & Market Advisory",
+     no: "02",
+     icon: <GrAppsRounded />,
+     details:
+       "Identify new market opportunities, customer segments, and growth channels through data-driven insights and competitive analysis.",
+   },
+   {
+     id: 3,
+     name: "Leadership & Management Consulting",
+     no: "03",
+     icon: <IoIosApps />,
+     details:
+       "Strengthen leadership capabilities, improve decision-making, and build high-performing management teams for organizational success.",
+   },
+   {
+     id: 4,
+     name: "Operations Optimization",
+     no: "04",
+     icon: <FaPhotoVideo />,
+     details:
+       "Improve efficiency, reduce costs, and streamline business processes to enhance operational performance and productivity.",
+   },
+   {
+     id: 5,
+     name: "Financial Planning & Analysis",
+     no: "05",
+     icon: <TfiWrite />,
+     details:
+       "Deliver accurate financial insights, budgeting strategies, and forecasting models to support smarter business decisions.",
+   },
+   {
+     id: 6,
+     name: "Digital Transformation Advisory",
+     no: "06",
+     icon: <VscGraph />,
+     details:
+       "Guide your business through digital transformation by adopting modern technologies that improve agility, innovation, and scalability.",
+   },
+ ];
 
-    {
-      id: 3,
-      name: "App Development",
-      no: "03",
-      icon: <IoIosApps />,
-      details:
-        "Create custom, user-friendly apps that meet your business needs. From concept to launch, we build mobile solutions that engage and perform.",
-    },
-
-    {
-      id: 6,
-      name: "Brand Building",
-      no: "06",
-      icon: <VscGraph />,
-      details:
-        "Create a strong, memorable brand identity. We craft strategies and visuals that define your brand and connect with your audience effectively.",
-    },
-  ];
 
   return (
     <section id="services">
@@ -77,31 +88,15 @@ const Services = () => {
           <motion.div
             key={service.id}
             className="bg-[#1a2f45] rounded-md p-4 lg:w-96 m-6"
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true, amount: 0.3 }}
+            
           >
             <motion.div
               className="p-4"
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true, amount: 0.3 }}
-              variants={{
-                visible: {
-                  transition: {
-                    staggerChildren: 0.4,
-                  },
-                },
-              }}
+             
             >
               <motion.h1
-                className="font-bold flex bg-[#12202e] rounded-md gap-2 pb-2 pt-2 text-[20px] lg:text-[28px] items-center"
-                variants={{
-                  hidden: { opacity: 0, x: -50 },
-                  visible: { opacity: 1, x: 0 },
-                }}
-                transition={{ duration: 0.7 }}
+                className="font-bold flex bg-[#12202e] rounded-md gap-2 pb-2 pt-2 text-[20px] lg:text-[24px] items-center"
+               
               >
                 <span className="text-[#f37021] p-2 rounded-md">
                   {service.icon}
@@ -110,11 +105,7 @@ const Services = () => {
               </motion.h1>
               <motion.h2
                 className="text-[18px] pt-4 pb-6"
-                variants={{
-                  hidden: { opacity: 0, y: 50 },
-                  visible: { opacity: 1, y: 0 },
-                }}
-                transition={{ duration: 0.5 }}
+               
               >
                 {service.details}
               </motion.h2>

@@ -18,10 +18,7 @@ const Testimonial = () => {
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-5 w-full">
           <motion.div
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7 }}
-            viewport={{ once: true, amount: 0.3 }}
+           
             className="border p-7 rounded-xl bg-[#1a2f45] drop-shadow-md border-neutral-800/50 col-span-2 flex flex-col gap-y-10 justify-between"
           >
             <div className="flex flex-col gap-y-3.5">

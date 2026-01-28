@@ -13,11 +13,12 @@ export default function Home() {
     <section className="max-w-7xl mx-auto">
       <Banner />
       <Services />
-      <Pricing />
+      {/* <Pricing /> */}
       <Testimonial />
       <ChooseUs />
-      <Portfolio />
+      {/* <Portfolio /> */}
       <ConnectCompany />
+      <ContactUs/>
       <Footer />
     </section>
   );

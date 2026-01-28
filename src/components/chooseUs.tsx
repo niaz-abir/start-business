@@ -76,10 +76,8 @@ const ChooseUs = () => {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
         {allChooseUs?.map((choose) => (
           <motion.div
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7 }}
-            viewport={{ once: true, amount: 0.3 }}
+            
+
             key={choose?.id}
             className="lg:w-96 m-6  p-6 rounded-md bg-[#1a2f45]/40   "
           >
