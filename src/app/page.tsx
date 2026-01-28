@@ -14,7 +14,7 @@ export default function Home() {
       <Banner />
       <Services />
       {/* <Pricing /> */}
-      <Testimonial />
+      {/* <Testimonial /> */}
       <ChooseUs />
       {/* <Portfolio /> */}
       <ConnectCompany />
